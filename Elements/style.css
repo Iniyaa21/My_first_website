@@ -1,0 +1,51 @@
+body{
+    background-color: #FCFAEE;
+    background-image: url("../assets/images/genshin\ bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    color: #603F26;
+    font-family :Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 100px;
+}
+
+p{
+    font-weight: bold;
+    font-size: 45px;
+    color: #603F26;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lorem{
+    font-size: 30px;
+    font-weight: 100;
+    background-color: #FCFAEE;
+    border: #603F26;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.grid-container1{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, auto); 
+    gap: 100px; 
+    padding: 20px;
+}
+
+.grid-item img{
+    background-color: #FCFAEE;
+    border: #603F26;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+.grid-item{
+    text-align: center;
+}
