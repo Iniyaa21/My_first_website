@@ -1,0 +1,17 @@
+body{
+    background-color: #FCFAEE;
+}
+h1{
+    color: #603F26;
+    font-size: 50px;
+}
+
+label{
+    color: #603F26;
+    font-size: 30px;
+}
+
+input{
+    font-size: 25px;
+    color: #603F26;
+}
